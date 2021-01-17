@@ -137,12 +137,12 @@ def upload_img_yolo():
 if __name__ == '__main__':
 
     ap= argparse.ArgumentParser()
-    ap.add_argument("-i", "--input", required=True,help="path to input video")
+    #ap.add_argument("-i", "--input", required=True,help="path to input video")
 	#ap.add_argument("-o", "--output", required=True,help="path to output video")
 	#ap.add_argument("-y", "--yolo", required=True,help="base path to YOLO directory")
 	#ap.add_argument("-t", "--threshold", type=float, default=0.3,help="threshold when applyong non-maxima suppression")
-    args = vars(ap.parse_args())
-    path.s = args["input"]
+    #args = vars(ap.parse_args())
+    #path.s = args["input"]
     
 	
     app.run()	
